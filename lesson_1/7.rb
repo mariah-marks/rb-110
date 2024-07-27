@@ -1,4 +1,6 @@
-# Given a string, create a new hash with each letter as the key, and an integer representation of the letter's occurances as the value. The hash keys should be sorted by integer ordinal.
+# Given a string, create a new hash with each letter as the key, and an integer
+# representation of the letter's occurances as the value. The hash keys should 
+# be sorted by integer ordinal.
 
 # input:
 # "The Flintstones Rock"

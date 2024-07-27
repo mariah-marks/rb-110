@@ -1,4 +1,5 @@
-# Create a new hash with a key-value pair for each element. In the new hash, each element should be the key, with the corresponding index as the value.
+# Create a new hash with a key-value pair for each element. In the new hash,
+# each element should be the key, with the corresponding index as the value.
 
 # input:
 # ["Fred", "Barney", "Wilma", "Betty", "Pebbles", "BamBam"]
