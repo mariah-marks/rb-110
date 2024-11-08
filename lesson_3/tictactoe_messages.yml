@@ -1,0 +1,42 @@
+welcome: "Welcome to Tic Tac Toe! Please enter your name:"
+greeting: "Hi %{name}!"
+invalid_name: "Sorry, that's not a valid name."
+rules: |
+  - To win the round, be the first player to get three in a row.
+  - The game will end when the first player reaches 5 wins.
+  - To place a piece, enter the number associated with the square.
+                      
+                             |     |
+                          1  |  2  |  3
+                             |     |
+                        -----+-----+-----
+                             |     |
+                          4  |  5  |  6
+                             |     |
+                        -----+-----+-----
+                             |     |
+                          7  |  8  |  9
+                             |     |
+start: "Press enter to start:"
+choose_first: | 
+   Who should go first?
+   >> Enter "P" for Player
+   >> Enter "C" for Computer
+   >> Press any other key to let Computer decide
+player_choice: "Choose a square: %{open_squares}"
+invalid_choice: "Sorry, that's not a valid choice."
+current_score: |
+   ** Current Score **
+   Player: %{player} Computer: %{computer}
+round_winner: |
+   %{winner} won this round!
+tie: "It's a tie!"
+final_score: |
+   ** Final Score **
+   Player: %{player}, Computer: %{computer}
+grand_winner: "%{winner} is the Grand Winner!"
+play_again: |
+   Do you want to play again?
+      >> Enter "Y" for yes
+goodbye: |
+   Thanks for playing, %{name}! Goodbye.
