@@ -1,0 +1,57 @@
+rules: |           
+    Welcome to 21!
+                      == RULES ==
+    The goal is get as close to 21 without going over.
+    If you go over, you bust, and the dealer wins the round.
+    Cards 2-10 are worth their face value.
+    Face cards are worth 10.
+    Aces are worth 1 or 11 (depending on the cards in your hand).
+
+    Win 5 rounds to win the game.
+    Good luck!
+    >> Press ENTER to start.
+round_score: |
+          *** ROUND %{round} ***
+          Dealer: %{dealer}, Player: %{player}
+
+cards: |
+  Dealer has: %{dealer} and an unknown card.
+  You have: %{player}. Your total is %{player_total}.
+player_draw: |
+  You drew a %{card}.
+all_cards: |
+      Dealer's cards: %{dealer}.
+      Your cards: %{player}.
+hit_or_stay: |
+  
+  Do you want to hit or stay?
+    >> Enter 'H' to hit
+    >> Enter 'S' to stay
+invalid_input: |
+  Sorry, that's not a valid response.
+  Please enter 'H' or 'S'.
+dealer_bust: |
+  Dealer busted!
+player_bust: |
+  You busted!
+results: |
+  %{player} has %{cards}, for a total of %{total}.
+round_total: |
+          == Dealer total: %{dealer} ==
+          == Player total: %{player} ==
+winner: |
+  %{winner} won this round!
+tie: |
+  It's a tie!
+next_round: |
+  >> Press ENTER to start the next round.
+total_wins: |
+  *** RESULTS ***
+  Dealer: %{dealer}, Player: %{player}
+grand_winner: |
+  
+  *** %{winner} is the Grand Winner! ***
+play_again: |
+  Do you want a rematch? (Enter y for yes)
+thanks: |
+  Thanks for playing!
